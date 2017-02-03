@@ -21,6 +21,7 @@ public class test1 {
 		driver.findElement(By.xpath(".//*[@id='Passwd']")).sendKeys("Sreenithya13");
 		driver.findElement(By.xpath(".//*[@id='signIn']")).click();
 		System.out.println("This is first changes");
+		System.out.println("This is second changes");
 	}
 	
 		
