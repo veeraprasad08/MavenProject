@@ -22,6 +22,7 @@ public class test1 {
 		driver.findElement(By.xpath(".//*[@id='signIn']")).click();
 		System.out.println("This is first changes");
 		System.out.println("This is second changes");
+		System.out.println("This is third changes");
 	}
 	
 		
