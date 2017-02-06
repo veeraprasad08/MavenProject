@@ -15,7 +15,7 @@ public class test1 {
 		
 		driver = new FirefoxDriver();
 		driver.get("http://www.gmail.com");
-		driver.findElement(By.xpath(".//*[@id='Email']")).sendKeys("veeraprasad.t");
+		driver.findElement(By.xpath(".//*[@id='XXEmail']")).sendKeys("veeraprasad.t");
 		driver.findElement(By.xpath(".//*[@id='next']")).click();
 		Thread.sleep(5000L);
 		driver.findElement(By.xpath(".//*[@id='Passwd']")).sendKeys("Sreenithya13");
