@@ -15,10 +15,10 @@ public class test1 {
 		
 		driver = new FirefoxDriver();
 		driver.get("http://www.gmail.com");
-		driver.findElement(By.xpath(".//*[@id='Email']")).sendKeys("Your email id");
+		driver.findElement(By.xpath(".//*[@id='Email']")).sendKeys("veeraprasad.t");
 		driver.findElement(By.xpath(".//*[@id='next']")).click();
 		Thread.sleep(5000L);
-		driver.findElement(By.xpath(".//*[@id='Passwd']")).sendKeys("Password");
+		driver.findElement(By.xpath(".//*[@id='Passwd']")).sendKeys("Sreenithya13");
 		driver.findElement(By.xpath(".//*[@id='signIn']")).click();
 		System.out.println("This is first changes");
 		System.out.println("This is second changes");
@@ -29,6 +29,7 @@ public class test1 {
 		System.out.println("This is seventh changes");
 		System.out.println("This is eighth changes");
 		System.out.println("This is nineth changes");
+		System.out.println("This is tenth changes");
 	}
 	
 		
